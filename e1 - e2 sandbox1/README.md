@@ -17,4 +17,4 @@
 * AppServiceProvider.php
 * PostController
 * app\Http\View directory
-* channel. partials, and post directory on resources/views.
+* channel.partials, and post directory on resources/views.
