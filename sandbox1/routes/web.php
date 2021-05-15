@@ -1,11 +1,13 @@
 <?php
 
 use App\Services\Postcard;
+use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Facades\Route;
 use App\Services\PostcardSendingService;
 use App\Http\Controllers\PayOrderController;
 use App\Http\Controllers\ChannelController;
 use App\Http\Controllers\PostController;
+use Illuminate\Support\Str;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,4 +40,11 @@ Route::get('postcards', function () {
 
 Route::get('facades', function() {
     Postcard::hello('Hello from facades', 'test@test.com');
+});
+
+// 5. Macros
+Route::get('macro', function () {
+//    dd(Str::partNumber('123456789'));
+//    dd(Str::prefix('123456789'));
+    return ResponseFactory::errorJson('Huge error occur');
 });

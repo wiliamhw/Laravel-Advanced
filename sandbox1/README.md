@@ -7,6 +7,7 @@
 * PayOrderController.php
 * AppServiceProvider.php
 
+
 #2. View Composers
 [Link](https://www.youtube.com/watch?v=7QWZxjgvEQc&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=2)
 
@@ -24,6 +25,15 @@
 [Link](https://www.youtube.com/watch?v=zR6JnwH7MSQ&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=4)
 
 ## Changed Files
-* App\Services Directory
+* App\Services directory
 * web.php
 * AppServiceProvider.php
+
+
+#5. Macros
+[Link](https://www.youtube.com/watch?v=S8nz1JqbT9M&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=5)
+
+## Changed Files
+* App\Mixin directory
+* AppServiceProvider.php
+* web.php
