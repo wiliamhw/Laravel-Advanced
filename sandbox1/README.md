@@ -37,3 +37,10 @@
 * App\Mixin directory
 * AppServiceProvider.php
 * web.php
+
+
+# 8. Lazy Collections & PHP Generator
+[Link](https://www.youtube.com/watch?v=yRpaMx3vvAw&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=8)
+
+## Changed Files
+* web.php
