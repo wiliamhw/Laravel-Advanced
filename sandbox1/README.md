@@ -1,4 +1,4 @@
-#1. Service Container 
+# 1. Service Container 
 [Link](https://www.youtube.com/watch?v=_z9nzEUgro4&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=1)
 
 ## Changed Files
@@ -8,7 +8,7 @@
 * AppServiceProvider.php
 
 
-#2. View Composers
+# 2. View Composers
 [Link](https://www.youtube.com/watch?v=7QWZxjgvEQc&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=2)
 
 ## Changed Files
@@ -21,7 +21,7 @@
 * channel.partials, and post directory on resources/views.
 
 
-#4. Facades
+# 4. Facades
 [Link](https://www.youtube.com/watch?v=zR6JnwH7MSQ&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=4)
 
 ## Changed Files
@@ -30,7 +30,7 @@
 * AppServiceProvider.php
 
 
-#5. Macros
+# 5. Macros
 [Link](https://www.youtube.com/watch?v=S8nz1JqbT9M&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=5)
 
 ## Changed Files

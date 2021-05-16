@@ -1,4 +1,4 @@
-#3. Polymorphic Relationships
+# 3. Polymorphic Relationships
 [Link](https://www.youtube.com/watch?v=C7T1689IvPQ&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=3)
 
 ## Info

@@ -1,4 +1,4 @@
-#6. Pipelines Design Pattern
+# 6. Pipelines Design Pattern
 [Link](https://www.youtube.com/watch?v=7XqEJO-wt7s&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=6)
 
 ## Changed Files
@@ -8,7 +8,7 @@
 * Database seeder (to seed post)
 * views\post\index.blade.php
 
-#7. Repository Pattern
+# 7. Repository Pattern
 [Link](https://www.youtube.com/watch?v=93ZhGkFIwbA&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=7)
 
 ## Changed Files
