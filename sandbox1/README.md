@@ -18,7 +18,8 @@
 * AppServiceProvider.php
 * PostController
 * app\Http\View directory
-* channel.partials, and post directory on resources/views.
+* resources\views\partials directory
+* resources\views\post\create.blade.php directory
 
 
 # 4. Facades

@@ -17,6 +17,7 @@
     * many to many: MorphToMany()
 
 ## Changed Files
-* Models directory
+* Models directory and its factory
+* Database Seeder
 * Controllers directory
 * Migrations directory
