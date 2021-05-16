@@ -16,7 +16,7 @@
     * morphMany()
     * many to many: MorphToMany()
 
-## Changed
+## Changed Files
 * Models directory
 * Controllers directory
 * Migrations directory
