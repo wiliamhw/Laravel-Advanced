@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use App\QueryFilters\Active;
-use App\QueryFilters\MaxCount;
 use App\QueryFilters\Sort;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

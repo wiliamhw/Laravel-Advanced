@@ -22,6 +22,32 @@
 * resources\views\post\create.blade.php directory
 
 
+# 3. Polymorphic Relationships
+[Link](https://www.youtube.com/watch?v=C7T1689IvPQ&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=3)
+
+## Info
+* `tweet` object is called `post` in original video
+* Run seeder to see database
+* Polymorph object = { comment, image, tag }
+* Base object = { tweet, user, video }
+
+## Explanation
+* Polymorph object can take form as an attribute of base object.
+* Polymorph object use:
+    * morphTo()
+    * many to many: morphedByMany()
+* Base object use:
+    * morphOne()
+    * morphMany()
+    * many to many: MorphToMany()
+
+## Changed Files
+* Polymorph object migration and model
+* create_taggables_table migration
+* Base object migration, model, and factory
+* Database Seeder
+
+
 # 4. Facades
 [Link](https://www.youtube.com/watch?v=zR6JnwH7MSQ&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=4)
 

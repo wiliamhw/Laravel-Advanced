@@ -11,9 +11,9 @@ class Tag extends Model
 
     protected $guarded = [];
 
-    public function posts()
+    public function tweet()
     {
-        return $this->morphedByMany(Post::class, 'taggable');
+        return $this->morphedByMany(Tweet::class, 'taggable');
     }
 
     public function videos()
