@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Article;
 use App\Models\Channel;
 use App\Models\Customer;
 use App\Models\Post;
@@ -30,6 +31,9 @@ class DatabaseSeeder extends Seeder
 
         /** e7 - Repository Pattern **/
         Customer::factory(50)->create();
+
+        /** e9 - Soft Deletes **/
+        Article::factory(10)->create();
     }
 
     private function polymorphicRelation()

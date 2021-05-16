@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use App\Models\User;
 use App\Services\Postcard;
 use Illuminate\Routing\ResponseFactory;
@@ -60,6 +61,10 @@ Route::get('customer', [CustomerController::class, 'index']);
 Route::get('customer/{customerId}', [CustomerController::class, 'show']);
 Route::get('customer/{customerId}/update', [CustomerController::class, 'update']);
 Route::get('customer/{customerId}/delete', [CustomerController::class, 'destroy']);
+
+/** e9 - Soft Deletes **/
+Route::get('/articles', [ArticleController::class, 'index']);
+
 
 /** e8 - Lazy Collections & PHP Generator **/
 Route::get('lazy', function () {

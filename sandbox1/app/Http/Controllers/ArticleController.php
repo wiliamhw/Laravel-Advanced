@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Post;
+use App\Models\Article;
 use Illuminate\Http\Request;
 
-class PostController extends Controller
+class ArticleController extends Controller
 {
     public function index()
     {
-        return Post::all();
+        return Article::all();
     }
 }
