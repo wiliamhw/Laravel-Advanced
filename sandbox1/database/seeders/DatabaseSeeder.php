@@ -2,6 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Channel;
+use App\Models\Customer;
+use App\Models\Post;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,8 +16,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call([
-            ChannelSeeder::class
-        ]);
+        /** e2 - View Composers */
+        Channel::factory(20)->create();
+
+        /** e6 - Pipelines Pattern **/
+        Post::factory(50)->create();
+
+        /** e7 - Repository Pattern **/
+        Customer::factory(50)->create();
     }
 }

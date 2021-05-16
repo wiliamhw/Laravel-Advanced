@@ -18,10 +18,10 @@ class Post extends Model
         return app(Pipeline::class)
             ->send(Post::query())
             ->through([
-                Active::class,
-                Sort::class,
+                Active::class, // value: 1 or 0
+                Sort::class, // value: 'ASC' or 'DESC'
             ])
             ->thenReturn()
-            ->paginate(5);
+            ->paginate(10);
     }
 }
